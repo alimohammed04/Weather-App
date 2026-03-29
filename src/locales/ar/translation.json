@@ -1,0 +1,12 @@
+{
+    "Search for a location to see the weather":"ابحث عن موقع لمعرفة حالة الطقس",
+    "Enter any city or region name above":"أدخل اسم أي مدينة أو منطقة أعلاه",
+    "Weather Now":"الطقس الآن",
+    "Search for a city or area":"ابحث عن مدينة أو منطقة",
+    "We couldn't find weather data for":"لم نتمكن من العثور على بيانات الطقس لـ ",
+    "Please check the spelling and try again":"يرجى التحقق من الإملاء والمحاولة مرة أخرى",
+    "Location Not Found" : "الموقع غير موجود",
+    "Wind" : "الرياح",
+    "Humidity" : "الرطوبة",
+    "Feels Like" : "يبدو كأنه"
+}
