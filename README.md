@@ -1,16 +1,70 @@
-# React + Vite
+# Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive weather application built with React that allows users to search for a city or area and view current weather information through a weather API.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Weather Now is a clean and responsive web application designed to provide a simple weather search experience. The project focuses on usability, multilingual support, and a modern interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Search for a city or area to get weather information
+- Responsive design for different screen sizes
+- Multilingual support using `i18n`
+- Clean and modern user interface
+- Weather data fetched from an external API
+- Smooth and simple user experience
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- i18n
+- Font Awesome
+- Heroicons
+- Weather API
+
+## Project Goals
+
+This project was built to practice:
+
+- Working with APIs in React
+- Managing dynamic data and component state
+- Building responsive user interfaces
+- Adding multilingual support to a real project
+- Organizing a frontend project using reusable components
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone git@github.com:alimohammed04/Weather-App.git
+cd Weather-App
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
+
+```bash
+npm run dev
+```
+
+## What I Learned
+
+Through this project, I improved my skills in:
+
+- React development
+- API integration
+- Responsive design
+- Localization and translation
+- UI structure and component organization
+
+## Author
+
+Developed by Ali alwaael.

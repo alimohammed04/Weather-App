@@ -9,11 +9,11 @@ import LoadingComponent from "./LoadingComponent";
 import { useTranslation } from "react-i18next";
 
 function App() {
-  const [pageDir, setPageDir] = useState("ltr");
   const [searchValue, setSearchValue] = useState("");
   const [status, setstatus] = useState(null); //null , loading , fetched
   const [data, setData] = useState({});
   const { t, i18n } = useTranslation();
+  const direction = i18n.language === "ar" ? "rtl" : "ltr";
 
   const apiKey = "e4647148dd964044a95193114262703";
 
@@ -49,16 +49,11 @@ function App() {
 
   return (
     <main
-      dir={pageDir}
+      dir={direction}
       className="font-roboto rtl:font-cairo flex min-h-screen bg-linear-to-br from-blue-400 via-blue-500 to-indigo-600"
     >
       <div className="m-auto flex h-full w-[95%] flex-col gap-6 pt-10 pb-10 md:w-md lg:w-lg">
-        <HeaderPage
-          t={t}
-          i18n={i18n}
-          direction={pageDir}
-          setDirection={setPageDir}
-        />
+        <HeaderPage t={t} i18n={i18n} direction={direction} />
         <InputComponent
           t={t}
           searchValue={searchValue}

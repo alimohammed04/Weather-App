@@ -1,11 +1,9 @@
-export default function HeaderPage({ direction, setDirection, t, i18n }) {
+export default function HeaderPage({ direction, t, i18n }) {
   //handle click on lang button
   function handleClick() {
     if (direction === "ltr") {
-      setDirection("rtl");
       i18n.changeLanguage("ar");
     } else {
-      setDirection("ltr");
       i18n.changeLanguage("en");
     }
   }
